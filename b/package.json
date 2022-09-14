@@ -1,0 +1,14 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "main": "dist/b.cjs.js",
+  "module": "dist/b.esm.js",
+  "peerDependencies": {
+    "c": "*"
+  },
+  "peerDependenciesMeta": {
+    "c": {
+      "optional": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "preconstruct-optional-dependencies-reproduction",
+  "private": true,
+  "workspaces": [
+    "a",
+    "b",
+    "c"
+  ],
+  "dependencies": {
+    "@preconstruct/cli": "^2.2.1"
+  },
+  "preconstruct": {
+    "packages": [
+      "a",
+      "b",
+      "c"
+    ]
+  }
+}
